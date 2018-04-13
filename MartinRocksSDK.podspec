@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'MIT', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :http => 'https://github.com/MartinPrusa/framework-test/blob/master/fw-source.zip' }
+    s.source            = { :https => 'https://github.com/MartinPrusa/framework-test/blob/master/fw-source.zip' }
 
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = 'MartinRocks.framework'
